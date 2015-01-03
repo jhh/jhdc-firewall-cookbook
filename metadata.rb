@@ -6,3 +6,4 @@ description      'Installs/Configures firewall'
 long_description 'Installs/Configures firewall'
 version          '0.1.0'
 
+depends 'yum-epel'
