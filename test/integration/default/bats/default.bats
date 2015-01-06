@@ -9,3 +9,8 @@
   run fail2ban-client status
   [ "$status" -eq 0 ]
 }
+
+@test "sshd jail running" {
+  run fail2ban-client status sshd
+  [ "$status" -eq 0 ]
+}
