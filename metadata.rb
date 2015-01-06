@@ -1,7 +1,7 @@
 name             'jhdc-firewall'
 maintainer       'Jeff Hutchison'
 maintainer_email 'jeff@jeffhutchison.com'
-license          'MIT'
+license          'Apache v2.0'
 description      'Installs/Configures firewall and fail2ban'
 version          '0.5.0'
 long_description <<EOT
