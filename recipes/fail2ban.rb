@@ -1,5 +1,8 @@
-::Chef::Recipe.send(:include, FirewallUtilities)
-
+#
+# Cookbook Name:: firewall
+# Recipe:: default
+#
+# Copyright (c) 2015 Jeff Hutchison, All Rights Reserved.
 
 include_recipe 'yum-epel::default'
 
