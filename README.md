@@ -1,7 +1,7 @@
 jhdc-firewall
 =============
 
-Recipes for installing and configuring firewall and fail2ban.
+Recipes for installing and configuring firewall and fail2ban for JHDC.
 
 Contributing
 ------------
