@@ -1,5 +1,6 @@
 jhdc-firewall
 =============
+[![Build Status](https://travis-ci.org/jhh/jhdc-firewall-cookbook.svg?branch=master)](https://travis-ci.org/jhh/jhdc-firewall-cookbook)
 
 Recipes for installing and configuring firewall and fail2ban for JHDC.
 
