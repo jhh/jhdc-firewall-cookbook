@@ -15,6 +15,7 @@ describe 'jhdc-firewall::fail2ban' do
   end
 
   it "creates local jail file" do
-    expect(chef_run).to render_file('/etc/fail2ban/jail.d/10-local.conf').with_content('enabled = true')
+    expect(chef_run).to render_file('/etc/fail2ban/jail.d/10-local.conf').with_content(/^enabled = true$/)
+    expect(chef_run).to render_file('/etc/fail2ban/jail.d/10-local.conf').with_content(/^bantime = \d+$/ )
   end
 end

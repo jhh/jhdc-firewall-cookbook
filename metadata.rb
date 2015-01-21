@@ -3,7 +3,7 @@ maintainer       'Jeff Hutchison'
 maintainer_email 'jeff@jeffhutchison.com'
 license          'Apache v2.0'
 description      'Installs/Configures firewall and fail2ban'
-version          '0.5.0'
+version          '0.6.0'
 long_description <<EOT
 jhdc-firewall
 =============

@@ -14,3 +14,13 @@
   run fail2ban-client status sshd
   [ "$status" -eq 0 ]
 }
+
+@test "sshd bantime configured" {
+  run fail2ban-client get sshd bantime
+  [ "$output" = "3613" ]
+}
+
+@test "postfix jail running" {
+  run fail2ban-client status postfix
+  [ "$status" -eq 0 ]
+}

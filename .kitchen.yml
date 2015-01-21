@@ -13,3 +13,10 @@ suites:
     run_list:
       - recipe[jhdc-firewall::default]
     attributes:
+      fail2ban:
+        services:
+          sshd:
+            enabled: "true"
+            bantime: "3613"
+          postfix:
+            enabled: "true"
