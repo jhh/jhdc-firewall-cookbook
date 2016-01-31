@@ -1,14 +1,14 @@
 source 'https://rubygems.org'
 
-gem 'berkshelf', "~> 3.2"
+gem 'berkshelf', "~> 4.0"
 
 group :integration do
-  gem 'test-kitchen', "~> 1.2"
-  gem 'kitchen-vagrant', "~> 0.15"
+  gem 'test-kitchen', "~> 1.5"
+  gem 'kitchen-vagrant', "~> 0.19"
 end
 
 group :test do
-  gem 'rake', "~> 10.4"
-  gem 'foodcritic', "~> 4.0"
-  gem 'chefspec', "~> 4.2"
+  gem 'rake', "~> 10.5"
+  gem 'foodcritic', "~> 6.0"
+  gem 'chefspec', "~> 4.5"
 end
