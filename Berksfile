@@ -2,4 +2,4 @@ source "https://supermarket.getchef.com"
 
 metadata
 
-cookbook 'yum-epel', '~> 0.6.0'
+cookbook 'yum-epel', '~> 0.6.5'
