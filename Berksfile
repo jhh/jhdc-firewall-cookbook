@@ -1,5 +1,5 @@
-source "https://supermarket.getchef.com"
+source 'https://supermarket.getchef.com'
 
 metadata
 
-cookbook 'yum-epel', '~> 0.6.5'
+cookbook 'yum-epel', '~> 0.6.6'
