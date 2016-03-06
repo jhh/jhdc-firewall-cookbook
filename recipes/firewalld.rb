@@ -20,6 +20,6 @@ package 'firewalld' do
   action :upgrade
 end
 
-service "firewalld" do
+service 'firewalld' do
   action [:enable, :start]
 end

@@ -24,12 +24,12 @@ include_recipe 'yum-epel::default'
   end
 end
 
-service "fail2ban" do
+service 'fail2ban' do
   action [:enable, :start]
 end
 
-template "/etc/fail2ban/jail.d/10-local.conf" do
-  source "jail.conf.erb"
-  mode "0644"
-  notifies :restart, "service[fail2ban]"
+template '/etc/fail2ban/jail.d/10-local.conf' do
+  source 'jail.conf.erb'
+  mode '0644'
+  notifies :restart, 'service[fail2ban]'
 end
